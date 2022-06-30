@@ -26,6 +26,12 @@ export default function Header(props) {
                     <li className="nav-item">
                         <NavLink className={handleActiveClass()} style={handleActiveStyle()} to="/shop">shop</NavLink>
                     </li>
+                    <li className="nav-item">
+                        <NavLink className={handleActiveClass()} style={handleActiveStyle()} to="/search">search</NavLink>
+                    </li>
+                    <li className="nav-item">
+                        <NavLink className={handleActiveClass()} style={handleActiveStyle()} to="/search-demo">search-demo</NavLink>
+                    </li>
                     {/* <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                         <div className="dropdown-menu" aria-labelledby="dropdownId">
